@@ -1,3 +1,4 @@
-storage_gb = float(input("enter storage  in GB"))
+print("=== Storage Converter ===")
+storage_gb = float(input("Enter storage in GB: "))
 storage_mb = storage_gb * 1024
-print("storage in MB: ", storage_mb)
+print(storage_gb, "GB =", storage_mb, "MB")
